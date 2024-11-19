@@ -169,4 +169,65 @@ body {
   </footer>
 </body>
 </html>
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(180deg, #ADD8E6 0%, #87CEEB 100%); /* Soft Blue Gradient */
+  color: #333;
+  padding: 0;
+  line-height: 1.6;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Logo & Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffffcc;
+  border-bottom: 2px solid #ccc;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #006bb3;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #006bb3;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #003366;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  color: #ffffff;
+  background: linear-gradient(180deg, rgba(0, 128, 255, 0.8), rgba(0, 0, 128, 0.7)), url('
 
